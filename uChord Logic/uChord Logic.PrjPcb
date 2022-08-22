@@ -49,6 +49,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=uChord Logic.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YFAUQKCV
+
+[Document2]
 DocumentPath=Logic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,8 +82,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AOTYNHCD
 
-[Document2]
-DocumentPath=uChord Logic.PcbDoc
+[Document3]
+DocumentPath=Matrix.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -80,7 +97,23 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YFAUQKCV
+DocumentUniqueId=XKVSHGZT
+
+[Parameter1]
+Name=LeadEngineer
+Value=JCF
+
+[Parameter2]
+Name=HardRev
+Value=A
+
+[Parameter3]
+Name=Codename
+Value=uChord Logic
+
+[Parameter4]
+Name=BOMRev
+Value=A
 
 [Configuration1]
 Name=Sources
@@ -798,7 +831,7 @@ Type8=1
 Type9=1
 Type10=1
 Type11=1
-Type12=1
+Type12=0
 Type13=1
 Type14=1
 Type15=1
