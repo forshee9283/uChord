@@ -99,6 +99,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFAUQKCV
 
+[Parameter1]
+Name=LeadEngineer
+Value=JCF
+
+[Parameter2]
+Name=HardRev
+Value=A
+
+[Parameter3]
+Name=Codename
+Value=uChord Strum
+
+[Parameter4]
+Name=BomRev
+Value=A
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
