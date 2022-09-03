@@ -72,7 +72,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -89,7 +89,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -99,21 +99,38 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XKVSHGZT
 
-[Parameter1]
-Name=LeadEngineer
-Value=JCF
+[Document4]
+DocumentPath=Sophistry_2layer_PCB.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter2]
-Name=HardRev
+[Parameter1]
+Name=BOMRev
 Value=A
 
-[Parameter3]
+[Parameter2]
 Name=Codename
 Value=uChord Logic
 
-[Parameter4]
-Name=BOMRev
+[Parameter3]
+Name=HardRev
 Value=A
+
+[Parameter4]
+Name=LeadEngineer
+Value=JCF
 
 [Configuration1]
 Name=Sources
@@ -686,6 +703,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
